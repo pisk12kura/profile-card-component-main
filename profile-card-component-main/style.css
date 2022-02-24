@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --headingcolor: hsl(229, 23%, 23%);
+    --oldcitycolor: hsl(0, 0%, 59%);
+    --backgroundcolor: hsl(185, 75%, 39%);
+}
+
+body {
+    font-family: "Kumbh Sans";
+    background-color: var(--backgroundcolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} 
+
+.app {
+    background-color: white;
+    border-radius: 1rem;
+    width: 350px;
+    height: 410px;
+}
+
+/*upper part*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--oldcitycolor);
+}
+
+.victor {
+    border: 8px solid white;
+    border-radius: 20rem;
+    position: relative;
+    bottom: 3.5rem;
+    margin-bottom: -3rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 18px;
+    color: var(--headingcolor);
+}
+
+.old {
+    color: var(--oldcitycolor);
+    font-size: 20px;
+    position: relative;
+    left: 0.8rem;
+    bottom: 0.002rem;
+}
+
+.city {
+    color: var(--oldcitycolor);
+    margin-bottom: 2rem;
+}
+
+.pattern {
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+/*lower part*/
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.2rem;
+}
+
+.specs {
+    color: var(--oldcitycolor);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+/*challange specs*/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 0.5rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+
+
+    
